@@ -1,0 +1,27 @@
+module.exports.func = function (bot, msg) {
+    var args = msg.content.split(" ");
+    args.splice(0, 1);
+    args = args.join(" ");
+    const request = require('request');
+request("https://murkapi.com/mc.php?key=key&server=" + args, function (error, response, body) {
+  var replacestr = '<br>';
+  var regex = /<br\s*[\/]?>/gi;
+   if (!error) {
+       if (body.length < 2000) {
+           msg.channel.sendMessage(body.replace(regex,'\n'));
+       } else {
+           var count = 0;
+           var end = 1999;
+           while (count < body.length) {
+               msg.channel.sendMessage(body.substring(count, end).replace(regex, '\n'));
+               count += 1999;
+               end += 1999;
+               if (count > body.length)
+                   count = body.length;
+               if (end > body.length)
+                   end = body.length;
+           }
+       }
+   }
+});
+}

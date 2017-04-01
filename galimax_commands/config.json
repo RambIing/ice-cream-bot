@@ -1,0 +1,19 @@
+{
+  "token": "UR BOTS TOKEN",
+  "guildchannelid": "292140016078159872",
+  "startupchannelid": "292139999292424192",
+  "ownerid": "292139791016001537",
+  "suggestchannelid": "261295986025037825",
+  "version": "1.2",
+  "announcmentsid": "260240598223552515",
+  "devroleid": "292139791016001537",
+  "voicechannelid": "292139933835984898",
+  "musicchannelid": "292139933835984898",
+  "game": "",
+  "errorid": "292140260933238784",
+  "imgflip_username":"imgfliplel",
+  "imgflip_password":"urpass",
+  "games": "Need help? Type $$help,Im running Version 1.0 of Ice Cream API, Like Ice Cream? Help us by suggesting NEW features!, Whats a bot?",
+  "arguments":"you are right, you are wrong",
+  "prefix":"$$"
+}
