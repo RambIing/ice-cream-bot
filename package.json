@@ -1,0 +1,26 @@
+{
+  "name": "galimax",
+  "version": "1.1.0",
+  "description": "simple discord bot in node.js",
+  "main": "galimax.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "keywords": [
+    "galimax"
+  ],
+  "author": "maxtinion lord/jelly time",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "express": "^4.15.2",
+    "opusscript": "0.0.3",
+    "pm2": "^2.2.3",
+    "random-puppy": "^1.1.0",
+    "random_fml": "^1.1.0",
+    "request": "^2.81.0",
+    "unirest": "^0.5.1",
+    "youtube-search": "^1.0.9"
+  },
+  "devDependencies": {}
+}

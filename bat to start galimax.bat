@@ -1,0 +1,2 @@
+node galimax.js
+pause
