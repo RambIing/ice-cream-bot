@@ -11,6 +11,5 @@ Ice cream is a multi-purpose bot with a bunch of features. The bot is coded in n
 2. youtube-search
 3. request
 4. ytdl-core
-5. slot-machine
 # Want to join Ice Creams testing server?
 Heres the link to join: https://discord.gg/TvdBENY
